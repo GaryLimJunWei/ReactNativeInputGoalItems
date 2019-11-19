@@ -8,7 +8,7 @@ export default function App() {
 
   const [courseGoals, setCourseGoals] = useState([]);
   const [isAddMode,setIsAddMode] = useState(false);
-
+``
   const addGoalHandler = enteredGoal=> {
     if(enteredGoal.length === 0){
       return;
